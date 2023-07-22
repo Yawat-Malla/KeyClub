@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+        <title>News and Events | Key Club</title>
+    
+    <link rel="icon" href="/static/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+</head>
+
+<body>
+    <nav class="navbar">
+      <ul>
+        <li><img src="../static/images/logo.png" /></li>
+        <li><a href ="./index.html">Home</a></li> 
+        <li><a href ="./membership.html">Membership</a></li>
+        <li><a href ="./resources.html">Resources</a></li> 
+        <li><a href ="./event.html">Events</a></li>
+        <li><a href ="./team.html">Team</a></li>
+        <li><a href ="./contact.html">Contact us</a></li>
+      </ul>   
+      </nav>    
+    <script>
+        var navbar = document.querySelector('.navbar');
+        var lastScrollTop = 0;
+    
+        window.addEventListener('scroll', function() {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+          if (scrollTop > lastScrollTop && !navbar.classList.contains('small')) {
+            navbar.classList.add('small');
+          } else if (scrollTop < lastScrollTop && navbar.classList.contains('small')) {
+            navbar.classList.remove('small');
+          }
+    
+          lastScrollTop = scrollTop;
+        });
+
+      </script>
+      
+<div class="cov"><h1>Stay Informed: News and Events at Key Club!</h1>
+    <p>Welcome to the News and Events section of Key Club, your source for the latest updates, announcements, and happenings within our vibrant community. Stay connected, informed, and inspired as we share stories of impact, upcoming events, and exciting opportunities that await you as a Key Club member. Check this page regularly to stay up to date with the pulse of Key Club!</p>
+
+    <h2>Latest News</h2>
+    <p>Stay informed about the latest news and developments within Key Club. From inspiring stories of service projects making a difference in communities to updates on district and international initiatives, this section brings you the most recent highlights from the world of Key Club. Be inspired by the incredible work of fellow Key Club members and discover new ways to make an impact.</p>
+
+    <h2>Upcoming Events</h2>
+    <p>Mark your calendars! Stay in the loop with the upcoming events, conferences, and gatherings that are essential to the Key Club experience. Whether it's a district convention, leadership training workshop, or community service opportunity, this section provides you with dates, locations, and details of events happening in your area. Be sure to register and take advantage of these valuable opportunities for learning, networking, and making a difference.</p>
+
+</div>
+
+
+
+    <div class="sep">
+      <footer class="footer">
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <p class="footp"><i>Email: info@keyclub.org</i>
+          <br><i>Phone: </i></p> 
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <p class="footp">&copy; 2023 Key Club of Kathmandu. All rights reserved.</p>
+        </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+
+    </div>
+      
+
+      
+</body>
+</html>

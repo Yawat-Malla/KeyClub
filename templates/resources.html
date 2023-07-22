@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+        <title>Resources | Key Club</title>
+    
+    <link rel="icon" href="/static/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+</head>
+
+<body>
+     <nav class="navbar">
+        <ul>
+          <li><img src="../static/images/logo.png" /></li>
+          <li><a href ="./index.html">Home</a></li> 
+          <li><a href ="./membership.html">Membership</a></li>
+          <li><a href ="./resources.html">Resources</a></li> 
+          <li><a href ="./event.html">Events</a></li>
+          <li><a href ="./team.html">Team</a></li>
+          <li><a href ="./contact.html">Contact us</a></li>
+        </ul>   
+    </nav>    
+    <script>
+        var navbar = document.querySelector('.navbar');
+        var lastScrollTop = 0;
+    
+        window.addEventListener('scroll', function() {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+          if (scrollTop > lastScrollTop && !navbar.classList.contains('small')) {
+            navbar.classList.add('small');
+          } else if (scrollTop < lastScrollTop && navbar.classList.contains('small')) {
+            navbar.classList.remove('small');
+          }
+    
+          lastScrollTop = scrollTop;
+        });
+
+      </script>
+      
+<div class="cov">
+    <h1>Key Club Resources: Empowering You for Success!</h1>
+    <p>Welcome to the Key Club Resources page, your hub for accessing valuable tools, guides, and materials to enhance your Key Club experience. Here, you'll find a wealth of resources designed to empower you with knowledge, provide support, and inspire your journey as a Key Club member. Take advantage of these resources to maximize your impact, develop leadership skills, and make the most of your time in Key Club.</p>
+
+    <h2>Service Project Ideas:</h2>
+    <p>Looking for inspiration for your next service project? Our Service Project Ideas section offers a diverse collection of project suggestions that address various community needs. From organizing fundraisers and awareness campaigns to volunteering at local organizations, these ideas will help you plan impactful service initiatives that resonate with your interests and make a difference in your community.</p>
+
+    <h2>Leadership Development Materials</h2>
+    <p>Leadership is at the core of Key Club, and our Leadership Development Materials provide you with the tools and knowledge to excel in your role. Access training guides, workshops, and online resources that cover a range of leadership topics, including effective communication, team-building, project management, and public speaking. Develop your skills and become a confident and effective leader within your Key Club and beyond.</p>
+
+    <h2>Club Management Resources</h2>
+    <p>Running a successful Key Club chapter requires effective organization and management. In our Club Management Resources section, you'll find templates, guidelines, and best practices for managing club operations, conducting meetings, organizing events, and engaging members. From membership recruitment strategies to financial management tips, these resources will help you streamline your club's activities and ensure its smooth functioning.</p>
+</div>
+
+
+    <div class="sep">
+      <footer class="footer">
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <p class="footp"><i>Email: info@keyclub.org</i>
+          <br><i>Phone: </i></p> 
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <p class="footp">&copy; 2023 Key Club of Kathmandu. All rights reserved.</p>
+        </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+
+    </div>
+      
+
+      
+</body>
+</html>

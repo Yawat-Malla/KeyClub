@@ -1,0 +1,116 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+        <title>Our Team | Key Club</title>
+    
+    <link rel="icon" href="/static/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+</head>
+
+<body>
+     <nav class="navbar">
+        <ul>
+          <li><img src="../static/images/logo.png" /></li>
+        <li><a href ="./index.html">Home</a></li> 
+        <li><a href ="./membership.html">Membership</a></li>
+        <li><a href ="./resources.html">Resources</a></li> 
+        <li><a href ="./event.html">Events</a></li>
+        <li><a href ="./team.html">Team</a></li>
+        <li><a href ="./contact.html">Contact us</a></li>
+    </nav>    
+    <script>
+        var navbar = document.querySelector('.navbar');
+        var lastScrollTop = 0;
+    
+        window.addEventListener('scroll', function() {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+          if (scrollTop > lastScrollTop && !navbar.classList.contains('small')) {
+            navbar.classList.add('small');
+          } else if (scrollTop < lastScrollTop && navbar.classList.contains('small')) {
+            navbar.classList.remove('small');
+          }
+    
+          lastScrollTop = scrollTop;
+        });
+
+      </script>
+      
+
+<div class="cov">
+    <table ></table>
+    <h1>Meet Our Team</h1>
+
+    <table>
+        <tr>
+            <td>
+                <img src="">
+            </td>
+            <td>
+                <img src="">
+            </td>
+            <td>
+                <img src="">
+            </td>
+        </tr>
+        <tr>
+            <td>President</td>
+            <td>Vice President</td>
+            <td>Advisor</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="">
+            </td>
+            <td>
+                <img src="">
+            </td>
+            <td>
+                <img src="">
+            </td>
+        </tr>
+        <tr>
+            <td>Member</td>
+            <td>Membert</td>
+            <td>Member</td>
+        </tr>
+        
+    </table>
+</div>
+
+
+    <div class="sep">
+      <footer class="footer">
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <p class="footp"><i>Email: info@keyclub.org</i>
+          <br><i>Phone: </i></p> 
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <p class="footp">&copy; 2023 Key Club of Kathmandu. All rights reserved.</p>
+        </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+
+    </div>
+      
+
+      
+</body>
+</html>
