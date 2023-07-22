@@ -21,7 +21,6 @@ ul{
   top: 0;
   width: 100%;
   background-color: #0a2a5b;
-  font-size: 30px;
   text-align: center;
   transition: height 0.3s ease;
 }
@@ -59,7 +58,7 @@ nav li {
 nav a {
   color: #fff;
   text-decoration: none;
-  font-size: 80%;
+  font-size: 20px;
   transition: all 0.3s ease;
   position: relative; 
   display: inline-block; 
